@@ -35,7 +35,7 @@ WebUI.setText(findTestObject('Object Repository/guru99/txt_UserID'), UserID)
 'Input Password'
 WebUI.setText(findTestObject('Object Repository/guru99/txt_Password'), Password)
 
-'Click Dang Nhap button'
+'Click Login button'
 WebUI.click(findTestObject('Object Repository/guru99/btn_Login'))
 
 'Verify the text is displayed'
