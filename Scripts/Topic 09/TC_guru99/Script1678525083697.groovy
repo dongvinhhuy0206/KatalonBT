@@ -14,6 +14,14 @@ WebUI.navigateToUrl('https://demo.guru99.com/V4/')
 'Click Here link'
 WebUI.click(findTestObject('Object Repository/guru99/link_Here'))
 
+'Click advertisement'
+try {
+		WebUI.switchToFrame(findTestObject('Object Repository/guru99/iframe_gg'), 5)
+		WebUI.click(findTestObject('Object Repository/guru99/btn_close_iframe'))
+		WebUI.switchToDefaultContent()
+	}
+catch (Exception e){}
+
 'Input Email'
 WebUI.setText(findTestObject('Object Repository/guru99/txt_Email'), 'test@gmail.com')
 
