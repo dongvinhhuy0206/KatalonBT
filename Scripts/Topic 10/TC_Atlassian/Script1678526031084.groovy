@@ -22,7 +22,7 @@ String backgroundcolorRGB = WebUI.getCSSValue(findTestObject('Object Repository/
 String backgroundcolorHex = Utilities.convertRGBAToHex(backgroundcolorRGB).toUpperCase()
 
 'Verify background color'
-WebUI.verifyEqual(backgroundcolorHex, '#0065FF')
+WebUI.verifyEqual(backgroundcolorHex, '#0055CC')
 
 'Take Screenshot'
 WebUI.takeScreenshot()
