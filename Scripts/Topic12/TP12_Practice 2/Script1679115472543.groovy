@@ -14,10 +14,9 @@ List<String> lstMonth = ["January","February","July","October","December"]
 'Click dropdownlist multiselect'
 WebUI.click(findTestObject('Object Repository/Topic12/Practice2/ddl_multiselect'))
 
-'Multi select item'
+'Multi select items'
 for(String month in lstMonth) {
 	WebUI.click(findTestObject('Object Repository/Topic12/Practice2/ddl_multiselect_item',['month':month]))
-
 }
 
 'Delay 2s'
